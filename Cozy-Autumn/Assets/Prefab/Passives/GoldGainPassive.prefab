@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9dc2b3743ab21246aaf818a3d5cd5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 7daa19e14ab242044b2982bf4131be44, type: 3}
+  icon: {fileID: 21300000, guid: 1f65edcadb8c74e419f390472aac4564, type: 3}
   powerUpName: Midas touch
   descriptionPerLevel:
   - Gain 20% more gold

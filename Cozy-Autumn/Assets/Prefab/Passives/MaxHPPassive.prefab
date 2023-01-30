@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf637f5ba7891f4e8f0e7f53c42d178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 86d710e3365b29a458156ddb5bf2037c, type: 3}
+  icon: {fileID: 21300000, guid: 9d8f76ca056d8414091249ef803b279f, type: 3}
   powerUpName: More HP
   descriptionPerLevel:
   - Increase max HP by 20%

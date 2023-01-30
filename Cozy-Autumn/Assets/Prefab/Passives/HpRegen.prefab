@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39fd8a1672d175846a6744a961dd74b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: e26365410206cef4b8ccf717b9d77990, type: 3}
+  icon: {fileID: 21300000, guid: 5bb218952299f8f479709e529f3ac3f7, type: 3}
   powerUpName: Hp regen
   descriptionPerLevel:
   - Regen more life

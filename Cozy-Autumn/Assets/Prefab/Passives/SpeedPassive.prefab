@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af979744e0cb47f4693941ef1889c6f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 00c3d33a17f8e9c4098e6d823aa64b50, type: 3}
+  icon: {fileID: 21300000, guid: a110b519452c0dd4ca354b23bb1ca24e, type: 3}
   powerUpName: SpeedUp
   descriptionPerLevel:
   - Move 5% faster

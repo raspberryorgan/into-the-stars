@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d71a90900276434f89a513bf697b6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 0105e4985ac45dc4e8013725652a2992, type: 3}
+  icon: {fileID: 21300000, guid: 7541520dd8a3064418bb179f7a60f16a, type: 3}
   powerUpName: Armor
   descriptionPerLevel:
   - Gain 5% damage reduction

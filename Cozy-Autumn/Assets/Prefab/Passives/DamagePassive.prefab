@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e73ac9aeeb724f4cbb0a13dc8519c06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 61c5f0409e78c1745b629c5b69e34479, type: 3}
+  icon: {fileID: 21300000, guid: 94436c268eb320d45861964197845b9f, type: 3}
   powerUpName: More damage
   descriptionPerLevel:
   - Deal 10% more damage

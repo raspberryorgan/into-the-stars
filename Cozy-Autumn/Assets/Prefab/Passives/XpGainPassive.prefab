@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae32a830bea59a4aaaae60b272ebf8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: d3ac30211315bb946b143037510f05f6, type: 3}
+  icon: {fileID: 21300000, guid: 87282c2020ea4254387d5338dd7b61be, type: 3}
   powerUpName: Wisdom
   descriptionPerLevel:
   - Gain 10% More xp
