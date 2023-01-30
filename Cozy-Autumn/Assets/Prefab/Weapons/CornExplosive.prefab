@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3007636563388802569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3007636563388802568}
+  - component: {fileID: -5728673725900020697}
+  m_Layer: 0
+  m_Name: CornExplosive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3007636563388802568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3007636563388802569}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5728673725900020697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3007636563388802569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96509301421ffad41a880ad69c499312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 818f7c8adc53d9741a7a75fb0effbb32, type: 3}
+  powerUpName: Explosive corn
+  descriptionPerLevel:
+  - A corn that deals damage in an area
+  - Increases explosion radius
+  - Explosion damage +10
+  - Greatly reduces cooldown
+  - Explosion damage +10
+  - Greatly increases explosion radius
+  maxLevel: 6
+  currentLevel: 0
+  myType: 1
+  baseDamage: 20
+  totalDamage: 20
+  cooldown: 5
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 128
+  spawneableBullet: {fileID: 7696031167175599676, guid: 6bd145440788cbb49b48a2dc823ab8c9, type: 3}
+  bulletLifeTime: 3
+  bulletSpeed: 3
+  maxAmmo: 10

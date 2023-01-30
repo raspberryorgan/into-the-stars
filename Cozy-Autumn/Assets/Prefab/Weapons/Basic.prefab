@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3540777587660784745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5879802385927741423}
+  - component: {fileID: 6183142362552516325}
+  m_Layer: 6
+  m_Name: Basic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5879802385927741423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3540777587660784745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6183142362552516325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3540777587660784745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88bf321d5e7418048b30e87a04b50f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 5a93803cb3a10d043b8ccfa23d026beb, type: 3}
+  powerUpName: Basic shoot
+  descriptionPerLevel:
+  - Increases fire rate
+  - Increases fire rate
+  - Projetile damage +5
+  - Projectiles go through 1 more enemies
+  - Increases fire rate
+  - Projectile damage +10
+  - Projectiles go through 2 more enemies
+  maxLevel: 7
+  currentLevel: 0
+  myType: 0
+  baseDamage: 15
+  totalDamage: 0
+  cooldown: 0.8
+  enemyMask:
+    serializedVersion: 2
+    m_Bits: 128
+  spawneableBullet: {fileID: -1711333720125955515, guid: 6d6fa8c613c125546b6aaafbf1a9808e, type: 3}
+  bulletLifeTime: 4
+  bulletSpeed: 10
+  maxAmmo: 5
