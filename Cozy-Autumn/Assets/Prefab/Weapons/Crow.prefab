@@ -46,21 +46,21 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: ccbfb2a23f0562e48b9973389d579b01, type: 3}
   powerUpName: Crow
   descriptionPerLevel:
-  - A crow that flies around you and damages everything it touches
-  - Add one extra crow
-  - Add one extra crow
-  - Adds  damage to crows
-  - Add one extra crow
-  - Adds damage to crows
+  - A orb that flies around you and damages everything it touches
+  - Add one extra orb
+  - Add one extra orb
+  - Adds  damage to orbs
+  - Add one extra orb
+  - Adds damage to orbs
   maxLevel: 6
   currentLevel: 0
+  myType: 3
   baseDamage: 16
   totalDamage: 16
   cooldown: 5
   enemyMask:
     serializedVersion: 2
     m_Bits: 128
-  myType: 3
   spawneableBullet: {fileID: 8758960906863030930, guid: 2a0bdeedda7a6974ba75505e78c89da3, type: 3}
   bulletLifeTime: 3.5
   bulletSpeed: 3

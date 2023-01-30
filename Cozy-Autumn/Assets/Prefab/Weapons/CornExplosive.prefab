@@ -46,7 +46,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 818f7c8adc53d9741a7a75fb0effbb32, type: 3}
   powerUpName: Explosive corn
   descriptionPerLevel:
-  - A corn that deals damage in an area
+  - A missile that deals damage in an area
   - Increases explosion radius
   - Explosion damage +10
   - Greatly reduces cooldown
